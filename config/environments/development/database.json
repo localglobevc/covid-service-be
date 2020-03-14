@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "bookshelf",
+      "settings": {
+        "client": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "louiskw",
+        "password": "",
+        "database": "covid",
+        "schema": "public"
+      },
+      "options": {
+        "useNullAsDefault": true
+      }
+    }
+  }
+}
